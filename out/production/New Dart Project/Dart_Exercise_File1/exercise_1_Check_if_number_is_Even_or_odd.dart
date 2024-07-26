@@ -1,15 +1,17 @@
-import 'dart:ffi';
-import 'dart:io';
+import'dart:io';
 
+
+
+
+//// Exercise 1: Odd or Even
 void main(){
-  var Map_name= {
-    'Name':' ferdaush ',
-    " Father_Name":' Shoudul',
-    " Mother_Name":' Razia',
-    " Age ":22,
-    " highit ": 5.1
-  };
-  print(Map_name.values);
-  Map_name.remove('Father_Name');
-
+  print(" /// Welcom To Dart /// ");
+  stdout.write(" Enter The Number Sir ");
+  int number = int.parse(stdin.readLineSync()!);
+  if( number % 2 ==0 ){
+    print(" $number is even\n ");
+    } else{
+    print(" $number is odd\n ");
+    print(" Code is End ");
+  }
 }
