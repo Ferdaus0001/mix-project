@@ -1,34 +1,34 @@
 // // // this is a Mixin .dart//
 //
-//
-//
-// void main(){
-//   Tasla tasla = Tasla();
-//   tasla.electricvarietn();
-//   HybridCar hybridCar = HybridCar() ;
-//   hybridCar.electricvarietn();
-//
-// }
-//  mixin ElectriVarient{
-//   void electricvarietn(){
-//     print(" this is electric varient ");
-//   }
-// }
-// mixin PetrolVarient{
-//   voidpetrolvarient(){
-//     print(" this is a electric arient ");
-//   }
-// }
-//
-// class Tasla with ElectriVarient{
-//
-// }
-//
-//
-//
-// class HybridCar with ElectriVarient , PetrolVarient{
-//
-// }
+
+
+void main(){
+  Tasla tasla = Tasla();
+  tasla.electricvarietn();
+  HybridCar hybridCar = HybridCar() ;
+  hybridCar.electricvarietn();
+
+}
+ mixin ElectriVarient{
+  void electricvarietn(){
+    print(" this is electric varient ");
+  }
+}
+mixin PetrolVarient{
+  voidpetrolvarient(){
+    print(" this is a electric arient ");
+  }
+}
+
+class Tasla with ElectriVarient{
+
+}
+
+
+
+class HybridCar with ElectriVarient , PetrolVarient{
+
+}
 // //
 //
 //
